@@ -8,7 +8,7 @@ RUN cargo build --release -p brightstaff
 
 FROM docker.io/envoyproxy/envoy:v1.34-latest AS envoy
 
-FROM python:3.13.6-slim AS arch
+FROM python:3.14.3-slim AS arch
 # Purge PAM to avoid CVE-2025-6020 and install needed tools
 
 # 1) Install what you need while apt still works
