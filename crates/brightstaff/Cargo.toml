@@ -5,7 +5,7 @@ edition = "2021"
 
 [dependencies]
 async-openai = "0.30.1"
-bytes = "1.10.1"
+bytes = "1.11.1"
 chrono = "0.4"
 common = { version = "0.1.0", path = "../common" }
 eventsource-client = "0.15.0"
@@ -42,4 +42,4 @@ mockito = "1.0"
 tokio-stream = "0.1.17"
 tracing = "0.1.41"
 tracing-opentelemetry = "0.30.0"
-tracing-subscriber = { version = "0.3.19", features = ["env-filter", "fmt", "time"] }
+tracing-subscriber = { version = "0.3.20", features = ["env-filter", "fmt", "time"] }

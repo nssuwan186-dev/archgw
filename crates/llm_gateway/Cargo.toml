@@ -18,12 +18,12 @@ common = { path = "../common" }
 http = "1.1.0"
 governor = { version = "0.6.3", default-features = false, features = ["no_std"]}
 acap = "0.3.0"
-rand = "0.8.5"
+rand = "0.9.2"
 thiserror = "1.0.64"
 derivative = "2.2.0"
 sha2 = "0.10.8"
 hermesllm = { version = "0.1.0", path = "../hermesllm" }
-bytes = "1.10"
+bytes = "1.11"
 
 [dev-dependencies]
 serial_test = "3.1.1"
